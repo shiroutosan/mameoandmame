@@ -1,3 +1,8 @@
+---
+layout: default
+title: markdownのテスト
+---
+
 # markdownでも書けるらしいのでテスト
 ## aaaa
 ### bbbb
