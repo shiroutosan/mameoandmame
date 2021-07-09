@@ -1,13 +1,18 @@
 .talktable {
     margin:5px;
     border-width: 0px;
-    height: 30px;
     border-color: #FFF;
 }
+
+.talktable td{
+     border-width: 0px;
+     border-color: #FFF;
+ }
 
 .talktable-row{
      border-width: 0px;
      border-color: #FFF;
+     min-height:"90px";
 }
 
 .fukidashi-cell{
