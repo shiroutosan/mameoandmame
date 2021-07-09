@@ -1,2 +1,4 @@
 theme: jekyll-theme-slate
 title: まめおと学ぶなんちゃら
+sass:
+    sass_dir: assets/css
