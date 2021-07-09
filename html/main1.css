@@ -2,16 +2,23 @@
     margin:5px;
     border-width: 0px;
     height: 30px;
+    border-color: #FFF;
+}
+
+.talktable-row{
+     border-width: 0px;
+     border-color: #FFF;
+}
+
+.fukidashi-cell{
+     border-width: 0px;
+     border-color: #FFF;
 }
 
 .mame_icon {
     border: medium solid lightgreen;
     padding: 5px;
     border-radius: 10px;
-    /*
-    border-color: #FF0000;
-    background-color: #000000;
-    */
 }
 
 .fukidashiL {
