@@ -1,0 +1,89 @@
+<body>
+<h1>学習記録的なもの</h1>
+<h3>2021-06-24</h3>
+<h2>ワレワレは、会話したい。（<span style="color:red; font:bold;">達成！</span>）</h2>
+<table class="talktable" width=700px>
+    <tr width=700px>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mame.svg' %}" align="center"></div>
+        </td>
+        <td align="left">
+            <div class="fukidashiL">もしもし？</div>
+        </td>
+        <td width=60px></td>
+    </tr>
+    <tr width=700px>
+        <td width=60px></td>
+        <td align="right">
+            <div class="fukidashiR">できたかな？</div>
+        </td>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mameo.svg' %}" align="center"></div>
+        </td>
+    </tr>
+    <tr width=700px>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mame_gee.svg' %}" align="center"></div>
+        </td>
+        <td colspan="2" align="left">
+            <div class="fukidashiL">形だけは整ったようだな・・・</div>
+        </td>
+    </tr>
+    <tr width=700px>
+        <td colspan="2" align="right">
+            <div class="fukidashiR">本当はHTML部分を自動で生成したいんだけど、<br>
+                テンプレートへの差し込みがうまくいかないんだよね。</div>
+        </td>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mameo_gee.svg' %}" align="center"></div>
+        </td>
+    </tr>
+    <tr width=700px>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mame.svg' %}" align="center"></div>
+        </td>
+        <td colspan="2" align="left" style="background-color:#DDDDDD;">
+            <div class="fukidashiL">だけど、要素のレイアウトはイメージに近づいたぞー</div>
+        </td>
+    </tr>
+    <tr width=700px>
+        <td colspan="2" align="right" style="background-color:#DDDDDD;">
+            <div class="fukidashiR">
+                旧verでは1行づつtableタグで囲んでいたけど、<br>
+                今回は一つのtableタグのなかでレイアウトを整えたよ。<br>
+                具体的には、セリフテキストを格納するtdタグに<br>
+                colspan=2のプロパティを入れて、<br>
+                吹き出しの右寄せ/左寄せを実現しつつ、<br>
+                上下の吹き出しと重なるようにしているよ。<br>
+                なお、わかりやすいようにここだけtdタグの背景をグレーにしているよ。
+            </div>
+        </td>
+        </divstyle>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mameo_guhi.svg' %}" align="center"></div>
+        </td>
+    </tr>
+    <tr width=700px>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mame.svg' %}" align="center"></div>
+        </td>
+        <td colspan="2" align="left">
+            <div class="fukidashiL">左右・アイコン・セリフだけを格納したCSVファイルを用意して、<br>
+            値を差し込むだけにしたかったんだけど、うまくいかず。<br>
+            vies.pyの関数でやるべきなのか、<br>
+                テンプレートにfor文やIF文を入れて制御すべきなのか<br>
+            どっちなんだろう。</div>
+        </td>
+    </tr>
+    <tr width=700px>
+        <td colspan="2" align="right">
+            <div class="fukidashiR">
+                テキストを読み進めるしかないね。
+            </div>
+        </td>
+        <td width=60px>
+            <div class="mame_icon"><img src="{% static 'hello/img/mameo.svg' %}" align="center"></div>
+        </td>
+    </tr>
+</table>
+</body>
