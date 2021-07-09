@@ -1,7 +1,6 @@
 ---
 layout: default
-title: まめおと学ぶなんちゃら
-description: むう
+title: markdownのテスト
 ---
 
 <body class="container">
