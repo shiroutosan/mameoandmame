@@ -9,7 +9,7 @@
      border-color: #FFF;
  }
 
-.talktable-row{
+.talktablerow{
      border-width: 0px;
      border-color: #FFF;
      min-height:"90px";
@@ -28,9 +28,9 @@
 
 .mame_icon {
     border: medium solid lightgreen;
+    margin: 0 0 0 0;
     padding: 5px;
     border-radius: 10px;
-    max-height: 100%;
 }
 
 .fukidashiL {
