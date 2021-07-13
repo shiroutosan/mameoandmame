@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<script>window.texme = { style: 'plain' }</script>
+<script src="https://cdn.jsdelivr.net/npm/texme"></script>
+
+
+<body>
+<textarea>
+# 問9
+---
+$$E[X]=1$$ 
+$$E[Y]=2$$
+$$E[XY]=4$$
+$$Z=X+Y$$
+$$W=2X-Y$$
+$$V[Z]=V[Y]=24$$
+
+であるとき、
+
+(1)
+$Cov[X,Y]、E[X^2]、E[Y^2]$
+
+(2)$r_{XY}$
+
+を求めよ。
+
+---
+
+$Cov[X,Y]=E[XY]-E[X]E[Y]=2$
+
+$V[Z]=V[X+Y]=V[X]+V[Y]+2Cov[X,Y]$
+
+$=E[X^2]+E[Y^2]-E[X]^2-E[Y]^2+2Cov[X,Y]=24$ より
+
+$E[X^2]+E[Y^2]=25$
+
+$V[W]=V[2X-Y]=4V[X]+V[Y]-4Cov[X,Y]$
+
+$=4E[X^2]+E[Y^2]-4E[X]^2-E[Y]^2-4Cov[X,Y]=24$ より
+
+$4E[X^2]+E[Y^2]=40$
+
+$3E[X^2]=15 $、$E[X^2]=5$、$E[Y^2]=20$
+
+$V[X]=4$、$V[Y]=16$
+
+$r_{xy}=\frac{Cov[X,Y]}{\sqrt{V[X]V[Y]}}=0.25$
+
+※要注意
+
+分散を加算減算するときは、
+$(x+y)^2=x^2+2xy+y^2$をイメージして、
+- $V[cX]=c^2V[X]$
+- $V[X+Y]=V[X]+2Cov[X,Y]+V[Y]$
+- $V[X-Y]=V[X]-2Cov[X,Y]+V[Y]$
+
+</textarea>
+</body>
